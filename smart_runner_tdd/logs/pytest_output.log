@@ -1,0 +1,2 @@
+2025-07-14 13:21:28 [    INFO] src.smart_runner:30: Unique ID: 1 - Executing my_test_func(args=(), kwargs={})
+2025-07-14 13:21:28 [    INFO] src.smart_runner:40: Unique ID: 1 - Finished my_test_func in 0.0102 seconds.

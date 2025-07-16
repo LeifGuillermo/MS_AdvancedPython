@@ -1,0 +1,7 @@
+You have completed this exercise. To build the program up and expand your portfolio, here are some suggestions for additional features you can explore:
+
+Done: 1. Expand the task dictionary to include additional properties, such as who it is assigned to.
+
+2. Implement additional features like editing tasks or deleting tasks.
+
+3. Explore using a PriorityQueue in place of a deque.
