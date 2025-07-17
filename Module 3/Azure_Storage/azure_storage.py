@@ -1,7 +1,10 @@
 from azure.storage.blob import BlobServiceClient
+from dotenv import load_dotenv
+import os
 
-account_name = "your_storage_account_name"
-account_key = "your_storage_account_access_key"
+load_dotenv()
+account_name = os.getenv("AZURE_STORAGE_ACCOUNT_NAME")
+account_key = os.getenv("AZURE_STORAGE_ACCOUNT_ACCESS_KEY")
 
 blob_service_client = BlobServiceClient(
     account_url=f"https://{account_name}.blob.core.windows.net", 
