@@ -1,0 +1,1 @@
+Hello, this is a file I created to be saved in the cloud using Azure Storage.
