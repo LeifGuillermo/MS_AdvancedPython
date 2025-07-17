@@ -25,7 +25,7 @@ blob_client = container_client.get_blob_client("my_blob")
 
 # Upload a file to the container
 with open("my_file.txt", "rb") as data:
-    blob_client.upload_blob(data)
+    blob_client.upload_blob(data, overwrite=True)
 
 # Download a blob from the container
 with open("downloaded_file.txt", "wb") as data:
